@@ -1,0 +1,1 @@
+pacman::p_load_current_gh("reconverse/reportfactory")
