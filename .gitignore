@@ -1,0 +1,8 @@
+*~
+outputs
+.Rhistory
+*.Rproj
+.Rproj.user
+.Rdata
+.httr-oauth
+.DS_Store
