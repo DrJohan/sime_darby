@@ -11,3 +11,9 @@ pacman::p_load(
   aweek,      # create epiweeks with automatic factor levels
   tibbletime  # time aware tibbles
 )
+
+sanofi <- read_csv(here("data", "raw", "sanofi.csv"))
+View(sanofi)
+
+sanofi$year <- as.numeric(format(sanofi$date_labs, "%Y"))
+
