@@ -13,7 +13,8 @@ pacman::p_load(
 )
 
 sanofi <- read_csv(here("data", "raw", "sanofi.csv"))
-View(sanofi)
+skimr::skim(sanofi)
 
 sanofi$year <- as.numeric(format(sanofi$date_labs, "%Y"))
+
 
